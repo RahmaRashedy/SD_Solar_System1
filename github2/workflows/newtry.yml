@@ -1,0 +1,9 @@
+name: first w.f
+on: 
+  push:
+jobs:
+    first:
+       runs-on: ubunto-later 
+       steps: 
+           -name: print msg
+           run: echo "rahma" 
