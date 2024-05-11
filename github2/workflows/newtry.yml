@@ -1,9 +1,12 @@
-name: first w.f
-on: 
-  push:
+name:first wf
+on:
+   push:
+
+
+
 jobs:
-    first:
-       runs-on: ubuntu-latest
-       steps: 
-           -name: print msg
-           run: echo "rahma" 
+   first:
+     runs-on: ubuntu-latest
+     steps:
+      -name:print msg
+       run:echo "message"
