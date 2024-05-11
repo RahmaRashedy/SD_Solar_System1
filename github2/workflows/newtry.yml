@@ -3,7 +3,7 @@ on:
   push:
 jobs:
     first:
-       runs-on: ubunto-later 
+       runs-on: ubunto-latest
        steps: 
            -name: print msg
            run: echo "rahma" 
