@@ -3,7 +3,7 @@ on:
   push:
 jobs:
     first:
-       runs-on: ubunto-latest
+       runs-on: ubuntu-latest
        steps: 
            -name: print msg
            run: echo "rahma" 
